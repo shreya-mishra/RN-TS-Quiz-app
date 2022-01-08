@@ -27,3 +27,7 @@
 # c) assets
 
 # d) style
+
+
+![image](https://user-images.githubusercontent.com/61110378/148641680-f3550db7-bb66-4ce9-a32f-81da3a0abe6a.png)
+
