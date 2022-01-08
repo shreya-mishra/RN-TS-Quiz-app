@@ -16,17 +16,19 @@
 
 # Steps
 
-# 1) Structure the codebase [component, screen, constant (dummy data, ),Assets (constant color and font) folder ,styling folder for css ]
+# 1) Structure the codebase [component, screen, constant (dummy data,Global Style ),Assets (constant color and font) folder ,styling folder for css ]
 
-# a) component folder
+* starting with src folder
 
-# b) screen folder
+# a) component folder - header , question, options ,button files
 
-# b) constant folder
+# b) screen folder - Question Screen 
 
-# c) assets
+# b) constant folder - color , dummy data, common strings , type files
 
-# d) style
+# c) assets - for icons
+
+# d) style -  global style
 
 
 ![image](https://user-images.githubusercontent.com/61110378/148641907-9964d211-5a24-4cbd-bc66-fab185d3fed9.png)
