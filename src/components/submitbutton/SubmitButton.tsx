@@ -1,12 +1,27 @@
 import React from 'react';
 
-import {Text, View, Button} from 'react-native';
+import {Text, View, Button, TouchableOpacity} from 'react-native';
+import {QuestionView} from '../question/style';
+import {ButtonView} from './style';
 
-const SubmitButton: React.FC<{}> = () => {
+type submitButtonProps = {
+  buttonText: string;
+  handleSubmit: () => void;
+};
+const SubmitButton: React.FC<submitButtonProps> = ({
+  buttonText,
+  handleSubmit,
+}) => {
   return (
     <View>
-      <Button title="Submit" onPress={() => console.log('clicked button')} />
-      {/* <Text>Button</Text> */}
+      {/* <Button
+        // style={QuestionView.PrimaryButton}
+        title={buttonText}
+        onPress={handleSubmit}
+      /> */}
+      <TouchableOpacity onPress={handleSubmit} style={ButtonView.TouchButton}>
+        <Text style={{color: 'white', fontSize: 15}}>{buttonText}</Text>
+      </TouchableOpacity>
     </View>
   );
 };

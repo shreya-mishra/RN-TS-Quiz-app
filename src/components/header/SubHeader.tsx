@@ -1,11 +1,11 @@
 import React from 'react';
 
 import {Text, View} from 'react-native';
+import {strings} from '../../constant/en';
 
 const SubHeader: React.FC<{}> = () => {
   return (
     <View>
-      <Text>Sub Header</Text>
       <Text></Text>
     </View>
   );

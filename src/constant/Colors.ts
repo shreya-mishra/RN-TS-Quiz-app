@@ -1,10 +1,14 @@
-export class BackgroundColor {
-  primary = '#ff0000';
-}
-export class FontColor {
-  primary = '#3B4357';
-  secondary = '#FBC16D';
-}
-export class ButtonColor {
-  primary = '#8A80B7';
-}
+export const BackgroundColor = {
+  primary: '#FAFAFA',
+  secondary: '#FEFFFE',
+};
+export const SelectedOptionColor = {
+  primary: '#978DBD',
+};
+export const FontColor = {
+  primary: '#3B4357',
+  secondary: '#FBC16D',
+};
+export const ButtonColor = {
+  primary: '#8A80B7',
+};

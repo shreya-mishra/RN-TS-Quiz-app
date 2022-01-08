@@ -8,6 +8,7 @@
  * @format
  */
 
+import {NativeBaseProvider} from 'native-base';
 import React from 'react';
 import {
   SafeAreaView,
@@ -18,17 +19,20 @@ import {
   View,
 } from 'react-native';
 import QuizScreen from './src/screens/landingpage/QuizScreen';
+import {GlobalStyle} from './src/styles/GlobalStyle';
 
 // import styles from "./src/styles/GlobalStyle.css"
 
 const App: React.FC<{}> = () => {
   return (
-    <SafeAreaView>
-      <StatusBar />
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <QuizScreen />
-      </ScrollView>
-    </SafeAreaView>
+    <NativeBaseProvider>
+      <SafeAreaView style={GlobalStyle.background}>
+        <StatusBar />
+        <ScrollView contentInsetAdjustmentBehavior="automatic">
+          <QuizScreen />
+        </ScrollView>
+      </SafeAreaView>
+    </NativeBaseProvider>
   );
 };
 
