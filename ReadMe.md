@@ -29,5 +29,4 @@
 # d) style
 
 
-![image](https://user-images.githubusercontent.com/61110378/148641680-f3550db7-bb66-4ce9-a32f-81da3a0abe6a.png)
-
+![image](https://user-images.githubusercontent.com/61110378/148641907-9964d211-5a24-4cbd-bc66-fab185d3fed9.png)
