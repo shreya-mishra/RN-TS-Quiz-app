@@ -13,6 +13,12 @@ Design : https://dribbble.com/shots/16217895-Quiz-Mobile-App
 
 <!-- Please keep a track of the time taken to build this interface and let us know in the end.  -->
 
+## Tech Stack
+
+1) React-Native 
+2) Typecript 
+3) Styled Component 
+
 ## Steps 
 
 1) Structured the codebase 
